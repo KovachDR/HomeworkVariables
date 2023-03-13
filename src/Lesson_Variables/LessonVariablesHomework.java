@@ -11,7 +11,7 @@ public class LessonVariablesHomework {
         task7();
         task8();
     }
-    public static void task1 (){
+    public static void task1 () {
         System.out.println("Задача №1");
         var dog = 8.0;
         var cat = 3.6;
@@ -21,7 +21,7 @@ public class LessonVariablesHomework {
         System.out.println(paper);
     }
 
-    public static void task2 (){
+    public static void task2 () {
         System.out.println("Задача №2");
         var dog = 8.0;
         var cat = 3.6;
@@ -35,7 +35,7 @@ public class LessonVariablesHomework {
 
     }
 
-    public static void task3 (){
+    public static void task3 () {
         System.out.println("Задача №3");
         var dog = 8.0;
         var cat = 3.6;
@@ -48,7 +48,7 @@ public class LessonVariablesHomework {
         System.out.println(paper);
     }
 
-    public static void task4 (){
+    public static void task4 () {
         System.out.println("Задача №4");
         var friend = 19;
         System.out.println(friend);
@@ -58,7 +58,7 @@ public class LessonVariablesHomework {
         System.out.println(friend);
     }
 
-    public static void task5 (){
+    public static void task5 () {
         System.out.println("Задача №5");
         var frog = 3.5;
         System.out.println(frog);
@@ -70,7 +70,7 @@ public class LessonVariablesHomework {
         System.out.println(frog);
     }
 
-    public static void task6 (){
+    public static void task6 () {
         System.out.println("Задача №6");
         var boxerWeight1 = 78.2;
         var boxerWeight2 = 82.7;
@@ -80,7 +80,7 @@ public class LessonVariablesHomework {
         System.out.println("Разница в весе у боксеров составляет " + differenceBoxersWeight + " кг");
     }
 
-    public static void task7 (){
+    public static void task7 () {
         System.out.println("Задача №7");
         var boxerWeight1 = 78.2;
         var boxerWeight2 = 82.7;
@@ -90,7 +90,7 @@ public class LessonVariablesHomework {
         System.out.println("Разница в весе у боксеров составляет " + differenceBoxersWeight2 + " кг");
     }
 
-    public static void task8 (){
+    public static void task8 () {
         System.out.println("Задача №8");
         var workTime = 640;
         var workingTimeOneEmployee = 8;
