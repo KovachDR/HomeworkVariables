@@ -101,10 +101,11 @@ public static void task7 () {
         double loseWeightInOneDaySecondVersion = 0.5;
         double quantityDaysFirstVersion = totalWeight / loseWeightInOneDayFirstVersion;
         double quantityDaysSecondVersion = totalWeight / loseWeightInOneDaySecondVersion;
-        double meanQuantityDaysForResult = (quantityDaysFirstVersion + quantityDaysSecondVersion) / 2;
+        double loseWeightMeanVersion = (loseWeightInOneDayFirstVersion + loseWeightInOneDaySecondVersion) / 2;
+        double quantityDayMeanVersion = totalWeight / loseWeightMeanVersion;
     System.out.println("Если терять по 250 грамм, то понадобится " + quantityDaysFirstVersion + " дней");
     System.out.println("Если терять по 500 грамм, то понадобится " + quantityDaysSecondVersion + " дней");
-    System.out.println("Дней, в среднем, понадобится: " + meanQuantityDaysForResult);
+    System.out.printf("Дней, в среднем, понадобится: %.2f%n",quantityDayMeanVersion);
 }
 
 public static void task8() {
